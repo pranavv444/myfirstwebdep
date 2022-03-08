@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="port.css">
+    <style>
+        header {
+            margin: auto;
+            width: 37%;
+            padding: 85px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="head">
+        <div id="side">
+            <nav>
+                <ul>
+                    <li><a href="/portfolio.html">HOME</a></li>
+                    <li><a href="/intro.html">INTRO</a></li>
+                    <li><a href="/skills.html">SKILLS</a></li>
+                    <li><a href="/contact.html">CONTACT ME</a></li>
+                    <div class="search">
+                        <input type="text" name="search" id="search" placeholder="search this website">
+                    </div>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="maincontent">
+            <img style="float:right" src="logoemail.jpg" width="200px" height="200px">
+            <div class="contactform">
+                <h1>
+                    CONTACT ME
+                </h1>
+                <form>
+                    <div class="mb-3">
+                        <label for="mainemail" class="form-label">NAME</label>
+                        <input type="email" class="form-control" id="mainemail" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">YOUR MAIL IS SECURED AND PRIVATE.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mainemail" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="mainemail" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">YOUR MAIL IS SECURED AND PRIVATE.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mainphone" class="form-label">PHONE</label>
+                        <input type="phone" class="form-control" id="mainphone">
+                    </div>
+                    <div class="mb-3" id="form-check">
+                        <input type="checkbox" class="form-check-input" id="isemail">
+                        <label class="form-check-label" for="isemail">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
